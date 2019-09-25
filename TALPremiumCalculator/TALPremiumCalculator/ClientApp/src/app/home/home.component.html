@@ -1,0 +1,46 @@
+<h1>TAL Premium Calculator</h1>
+<h3>Caluclate Premium</h3>
+<hr>
+<form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+  <font color="red">*</font> marked fields are mandatory:
+  <div class="form-group">
+    <label for="insuredName">Name:<font color="red">*</font></label>
+    <input type="text" formControlName="insuredName" class="form-control" id="insuredName" aria-describedby="insuredName" placeholder="Enter Name">
+    <app-field-error-display-component [displayError]="isFieldValid('insuredName')" errorMsg="Please enter name">
+    </app-field-error-display-component>
+  </div>
+  <div class="form-group">
+    <label for="age">Age:<font color="red">*</font></label>
+    <input type="number" formControlName="age" class="form-control" id="age" placeholder="Enter age between 0 and 150">
+    <app-field-error-display-component [displayError]="isFieldValid('age')" errorMsg="Please enter the age between 0 and 150">
+    </app-field-error-display-component>
+
+  </div>
+  <div class="form-group">
+    <label for="dateOfBirth">Date of Birth (mm/dd/yyyy):<font color="red">*</font></label>
+    <input type="text" formControlName="dateOfBirth" class="form-control" id="dateOfBirth" placeholder="Date of Birth">
+    <app-field-error-display-component [displayError]="isFieldValid('dateOfBirth')" errorMsg="Please enter the valid date of birth.">
+    </app-field-error-display-component>
+  </div>
+  <div class="form-group">
+    <label for="sumInsured">Death - Sum Insured:<font color="red">*</font></label>
+    <input type="number" formControlName="sumInsured" class="form-control" id="sumInsured" placeholder="Enter amount between 0 and 10000000000">
+    <app-field-error-display-component [displayError]="isFieldValid('sumInsured')" errorMsg="Please enter the amount between 0 and 10000000000">
+    </app-field-error-display-component>
+
+  </div>
+
+  <div class="form-group">
+    <label>Occupation List:<font color="red">*</font>Select an occupation to calculate the premium: </label>
+    <select  (change)="calculatePremium($event.target.value)" id="occupationList" class="form-control">
+      <option>select One:</option>
+      <option *ngFor="let occupation of occupationsList" value={{occupation.factor}}>
+        {{occupation.occupationName}}
+      </option>
+    </select><br />
+
+    Premium Amount($): {{this.premiumAmount}}<br />
+    Premium Amount in words: {{this.premiumAmount |numberToWordsPipe}}
+  </div>
+
+</form>

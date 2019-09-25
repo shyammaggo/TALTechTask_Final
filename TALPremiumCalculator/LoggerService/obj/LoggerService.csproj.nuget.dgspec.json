@@ -1,0 +1,180 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\TALTech_Shailender\\TALPremiumCalculator_Dotnettricks\\TALPremiumCalculator\\LoggerService\\LoggerService.csproj": {}
+  },
+  "projects": {
+    "C:\\TALTech_Shailender\\TALPremiumCalculator_Dotnettricks\\TALPremiumCalculator\\Contracts\\Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TALTech_Shailender\\TALPremiumCalculator_Dotnettricks\\TALPremiumCalculator\\Contracts\\Contracts.csproj",
+        "projectName": "Contracts",
+        "projectPath": "C:\\TALTech_Shailender\\TALPremiumCalculator_Dotnettricks\\TALPremiumCalculator\\Contracts\\Contracts.csproj",
+        "packagesPath": "C:\\Users\\suchi\\.nuget\\packages\\",
+        "outputPath": "C:\\TALTech_Shailender\\TALPremiumCalculator_Dotnettricks\\TALPremiumCalculator\\Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\suchi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\TALTech_Shailender\\TALPremiumCalculator_Dotnettricks\\TALPremiumCalculator\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\TALTech_Shailender\\TALPremiumCalculator_Dotnettricks\\TALPremiumCalculator\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\TALTech_Shailender\\TALPremiumCalculator_Dotnettricks\\TALPremiumCalculator\\Entities\\Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TALTech_Shailender\\TALPremiumCalculator_Dotnettricks\\TALPremiumCalculator\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "C:\\TALTech_Shailender\\TALPremiumCalculator_Dotnettricks\\TALPremiumCalculator\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\suchi\\.nuget\\packages\\",
+        "outputPath": "C:\\TALTech_Shailender\\TALPremiumCalculator_Dotnettricks\\TALPremiumCalculator\\Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\suchi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\TALTech_Shailender\\TALPremiumCalculator_Dotnettricks\\TALPremiumCalculator\\LoggerService\\LoggerService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TALTech_Shailender\\TALPremiumCalculator_Dotnettricks\\TALPremiumCalculator\\LoggerService\\LoggerService.csproj",
+        "projectName": "LoggerService",
+        "projectPath": "C:\\TALTech_Shailender\\TALPremiumCalculator_Dotnettricks\\TALPremiumCalculator\\LoggerService\\LoggerService.csproj",
+        "packagesPath": "C:\\Users\\suchi\\.nuget\\packages\\",
+        "outputPath": "C:\\TALTech_Shailender\\TALPremiumCalculator_Dotnettricks\\TALPremiumCalculator\\LoggerService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\suchi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\TALTech_Shailender\\TALPremiumCalculator_Dotnettricks\\TALPremiumCalculator\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\TALTech_Shailender\\TALPremiumCalculator_Dotnettricks\\TALPremiumCalculator\\Contracts\\Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.5.4, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
